@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Background"
+    tools:context=".IncheonActivity">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="FULL_BANNER"
+        app:adUnitId="ca-app-pub-4756367925005641/7863497208"></com.google.android.gms.ads.AdView>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/go_yeonsu"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/my_button"
+            android:layout_weight="1"
+            android:text="연수"
+            android:textColor="@color/black"
+            android:textSize="7dp"
+            app:backgroundTint="@color/Button_color"
+            android:fontFamily="@font/kotra_bold"
+            android:foreground="?selectableItemBackground" />
+
+        <Button
+            android:id="@+id/go_michuhol"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/my_button"
+            android:layout_weight="1"
+            android:text="미추홀"
+            android:textColor="@color/black"
+            android:textSize="6dp"
+            app:backgroundTint="@color/Button_color"
+            android:fontFamily="@font/kotra_bold"
+            android:foreground="?selectableItemBackground" />
+
+        <Button
+            android:id="@+id/go_sugu"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/my_button"
+            android:layout_weight="1"
+            android:text="서구"
+            android:textColor="@color/black"
+            android:textSize="7dp"
+            app:backgroundTint="@color/Button_color"
+            android:fontFamily="@font/kotra_bold"
+            android:foreground="?selectableItemBackground" />
+
+        <Button
+            android:id="@+id/go_namdong"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/my_button"
+            android:layout_weight="1"
+            android:text="남동"
+            android:textColor="@color/black"
+            android:textSize="7dp"
+            app:backgroundTint="@color/Button_color"
+            android:fontFamily="@font/kotra_bold"
+            android:foreground="?selectableItemBackground" />
+
+        <Button
+            android:id="@+id/go_bupyeong"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/my_button"
+            android:layout_weight="1"
+            android:text="부평"
+            android:textColor="@color/black"
+            android:textSize="7dp"
+            app:backgroundTint="@color/Button_color"
+            android:fontFamily="@font/kotra_bold"
+            android:foreground="?selectableItemBackground" />
+
+        <Button
+            android:id="@+id/go_gyeyang"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/my_button"
+            android:layout_weight="1"
+            android:text="계양"
+            android:textColor="@color/black"
+            android:textSize="7dp"
+            app:backgroundTint="@color/Button_color"
+            android:fontFamily="@font/kotra_bold"
+            android:foreground="?selectableItemBackground" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/incheonlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/namdong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="남동구"
+                android:textColor="@color/black"
+                android:textSize="27dp"
+                android:fontFamily="@font/kotra_bold"/>
+
+                    <Button
+                        android:id="@+id/anyheal_vet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/my_button"
+                        android:text="@string/anyheal"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        app:backgroundTint="@color/Button_color"
+                        android:fontFamily="@font/kotra_bold"
+                        android:foreground="?selectableItemBackground" />
+
+                    <TextView
+                        android:id="@+id/anyheal_vet_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/anyheal_add"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <Button
+                        android:id="@+id/nonhyun_vet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/my_button"
+                        android:text="@string/nonhyun"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        app:backgroundTint="@color/Button_color"
+                        android:fontFamily="@font/kotra_bold"
+                        android:foreground="?selectableItemBackground" />
+
+            <TextView
+                android:id="@+id/nonhyun_vet_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nonhyun_add"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"/>
+
+                    <Button
+                        android:id="@+id/chansem_vet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/my_button"
+                        android:text="@string/chansem"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        app:backgroundTint="@color/Button_color"
+                        android:fontFamily="@font/kotra_bold"
+                        android:foreground="?selectableItemBackground" />
+
+                    <TextView
+                        android:id="@+id/chansem_vet_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chansem_add"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/hateaheung_vet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button"
+                android:text="@string/hateaheung"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:backgroundTint="@color/Button_color"
+                android:fontFamily="@font/kotra_bold"
+                android:foreground="?selectableItemBackground" />
+
+            <TextView
+                android:id="@+id/hateaheung_vet_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hateaheung_add"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="@color/Background2" />
+
+            <TextView
+                android:id="@+id/michuhol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="미추홀구"
+                android:textColor="@color/black"
+                android:textSize="27dp"
+                android:fontFamily="@font/kotra_bold"/>
+
+                    <Button
+                        android:id="@+id/sydney_vet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/my_button"
+                        android:text="@string/sidney"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        app:backgroundTint="@color/Button_color"
+                        android:fontFamily="@font/kotra_bold"
+                        android:foreground="?selectableItemBackground" />
+
+                    <TextView
+                        android:id="@+id/sydney_vet_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sidney_add"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/ara_vet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button"
+                android:text="@string/ara"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:backgroundTint="@color/Button_color"
+                android:fontFamily="@font/kotra_bold"
+                android:foreground="?selectableItemBackground" />
+
+            <TextView
+                android:id="@+id/ara_vet_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ara_add"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="@color/Background2" />
+
+            <TextView
+                android:id="@+id/bupyung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="부평구"
+                android:textColor="@color/black"
+                android:textSize="27dp"
+                android:fontFamily="@font/kotra_bold"/>
+
+                    <Button
+                        android:id="@+id/bupyung_vet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/my_button"
+                        android:text="@string/bupyung"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        app:backgroundTint="@color/Button_color"
+                        android:fontFamily="@font/kotra_bold"
+                        android:foreground="?selectableItemBackground" />
+
+                    <TextView
+                        android:id="@+id/bupyung_vet_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bupyung_add"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="@color/Background2" />
+
+            <TextView
+                android:id="@+id/sugu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="서구"
+                android:textColor="@color/black"
+                android:textSize="27dp"
+                android:fontFamily="@font/kotra_bold"/>
+
+                    <Button
+                        android:id="@+id/lime_vet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/my_button"
+                        android:text="@string/lime"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        app:backgroundTint="@color/Button_color"
+                        android:fontFamily="@font/kotra_bold"
+                        android:foreground="?selectableItemBackground" />
+
+                    <TextView
+                        android:id="@+id/lime_vet_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lime_add"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="@color/Background2" />
+
+            <TextView
+                android:id="@+id/yeonsu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="연수구"
+                android:textColor="@color/black"
+                android:textSize="27dp"
+                android:fontFamily="@font/kotra_bold"/>
+
+                    <Button
+                        android:id="@+id/plaza_vet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/my_button"
+                        android:text="@string/plaza"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        app:backgroundTint="@color/Button_color"
+                        android:fontFamily="@font/kotra_bold"
+                        android:foreground="?selectableItemBackground" />
+
+                    <TextView
+                        android:id="@+id/plaza_vet_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/plaza_add"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="@color/Background2" />
+
+            <TextView
+                android:id="@+id/gyeyang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="계양구"
+                android:textColor="@color/black"
+                android:textSize="27dp"
+                android:fontFamily="@font/kotra_bold"/>
+
+                    <Button
+                        android:id="@+id/dao_vet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/my_button"
+                        android:text="@string/dao"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        app:backgroundTint="@color/Button_color"
+                        android:fontFamily="@font/kotra_bold"
+                        android:foreground="?selectableItemBackground" />
+
+                    <TextView
+                        android:id="@+id/dao_vet_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dao_add"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/incheon_back_to_main"
+                android:background="@drawable/my_button"
+                android:fontFamily="@font/kotra_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/back"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:backgroundTint="@color/Button_color"
+                android:foreground="?selectableItemBackground"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

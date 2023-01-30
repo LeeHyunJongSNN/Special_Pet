@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Background2"
+    tools:context=".VetDonginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                app:srcCompat="@drawable/dongin_vet" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kotra_bold"
+                android:text="@string/dongin"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="055-552-7980"
+                android:textColor="@color/gray"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="주소: 경남 창원시 진해구 안골로 308"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/animal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/animalbrs"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/timesub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/time"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/time1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="평일: 10:00~19:00(점심시간 13:00~14:00)"
+                android:textColor="@color/gray"
+                android:textSize="17dp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/time2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="토요일: 10:00~15:00(점심시간 없음)"
+                android:textColor="@color/gray"
+                android:textSize="17dp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/time4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="일요일 휴무"
+                android:textSize="17dp"
+                android:textColor="@color/alertcolor"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alert"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/back_to_main"
+                android:background="@drawable/my_button"
+                android:fontFamily="@font/kotra_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/previous"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:backgroundTint="@color/Button_color"
+                android:foreground="?selectableItemBackground"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Background2"
+    tools:context=".RecommandActivity">
+
+    <TextView
+        android:id="@+id/select_legion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="건의사항 및 특수동물병원 제보는 언제나 환영합니다!! 아래 메일 주소를 클릭해서 보내실 내용을 보내주세요"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="@font/kotra_bold"/>
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/mail"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/back_to_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button"
+        android:layout_marginTop="360dp"
+        android:text="이전페이지"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="@color/Button_color"
+        android:fontFamily="@font/kotra_bold"
+        android:foreground="?selectableItemBackground" />
+
+</LinearLayout>

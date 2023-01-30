@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Background2"
+    tools:context=".ReptileInformationActivity">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="FULL_BANNER"
+        app:adUnitId="ca-app-pub-4756367925005641/6427018803"></com.google.android.gms.ads.AdView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_reptile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/kotra_bold"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info1"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+
+            <TextView
+                android:id="@+id/text_reptileinfo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info2"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info3"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info4"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info5"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info6"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info7"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info8"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info9"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info10"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info11"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info12"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info13"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info14"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info15"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info16"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info17"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_reptileinfo18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/reptile_info18"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/inforep_back_to_infopage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/my_button"
+                    android:fontFamily="@font/kotra_bold"
+                    android:foreground="?selectableItemBackground"
+                    android:text="@string/previous"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    app:backgroundTint="@color/Button_color" />
+
+                <Button
+                    android:id="@+id/inforep_next_to_rodentinfopage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/my_button"
+                    android:fontFamily="@font/kotra_bold"
+                    android:foreground="?selectableItemBackground"
+                    android:text="@string/next"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    app:backgroundTint="@color/Button_color" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/repinfo_go_to_searchpage"
+                android:background="@drawable/my_button"
+                android:fontFamily="@font/kotra_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/search"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:backgroundTint="@color/Button_color"
+                android:foreground="?selectableItemBackground"/>
+
+            <Button
+                android:id="@+id/inforep_back_to_main"
+                android:background="@drawable/my_button"
+                android:fontFamily="@font/kotra_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:backgroundTint="@color/Button_color"
+                android:foreground="?selectableItemBackground"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,506 @@
+<resources>
+    <string name="app_name">Animal_Hospital_Finder</string>
+    <string name="dialog_yes">예</string>
+    <string name="dialog_no">아니오</string>
+    <string name="dialog_keep">계속 실행합니다</string>
+    <string name="dialog_title">앱 종료</string>
+    <string name="close_message">앱을 종료하시겠습니까?</string>
+    <string name="dialog_cls">앱을 종료합니다</string>
+    <string name="previous">이전페이지</string>
+    <string name="back">메인페이지</string>
+    <string name="next">다음페이지</string>
+    <string name="search">검색페이지</string>
+    <string name="search_title">검색할 질병 입력</string>
+    <string name="search_hint">앵무새 질병을 입력해주세요</string>
+    <string name="help">도움이 되는 사이트 목록</string>
+    <string name="click">(사이트 주소를 터치하면 해당 사이트로 이동합니다.)</string>
+    <string name="birdpalace">버드팰리스: http://birdpalace.co.kr/</string>
+    <string name="animaldoctor">애니멀닥터: http://animaldoctor.co.kr/</string>
+    <string name="thezoo">더쥬: https://xn--9m1b023b.com/</string>
+    <string name="petzzi">펫찌: http://www.petzzi.com/</string>
+    <string name="notepet">노트펫: https://www.notepet.co.kr/</string>
+    <string name="dailyvet">데일리벳: https://www.dailyvet.co.kr/</string>
+    <string name="parrotcom">앵무새커뮤니티: https://cafe.naver.com/parrots4s/</string>
+    <string name="engsamo">앵사모: https://cafe.naver.com/baekparrotlove/</string>
+    <string name="parrotkingdom">앵무새왕국: https://cafe.naver.com/pkd7/</string>
+    <string name="psamo">파사모: https://cafe.naver.com/reptilia</string>
+    <string name="korrep">한국양서파충류학회: http://www.krsh.co.kr/</string>
+    <string name="thezoocafe">더쥬네이버카페: https://cafe.naver.com/insectmaster</string>
+    <string name="hamsterstory">햄스터스토리: https://cafe.naver.com/littleham</string>
+    <string name="hamsamo">햄사모: https://cafe.naver.com/myfriendspet</string>
+    <string name="hedge">가시버시-고슴도치사랑: https://cafe.naver.com/kasibersi</string>
+    <string name="gisamo">기사모: https://cafe.naver.com/lovefhr</string>
+    <string name="parrot">조류 질병</string>
+    <string name="reptile">파충류 질병</string>
+    <string name="rodent">소형 포유류 질병</string>
+    <string name="parrot_info1">설사: 증상으로는 묽은 설사, 녹색 설사, 끈적끈적한 변 등이 나타납니다. 여름에 물이나 모이가 부패되었을 경우, 썩은 야채를 주었을 경우, 부적합한 먹이공급, 평소에 먹지 않던 음식들을 먹은 경우에
+        생깁니다. 치료는 부드러운 물수건으로 항문을 닦아주고 새장을 따뜻한 곳으로 옮긴 후에 설파제를 물에 3-6방울 정도 섞어서 투약하면 됩니다.</string>
+    <string name="parrot_info2">식체: 증상으로는 부풀어 오른 가슴, 모이를 잘 먹지 못함, 거친 호흡, 구토 등이 나타납니다. 새는 모이를 모아서 저장해놓는 소낭이라는 것이 있는데 새의 식도중간에 부풀어 있는 부분이 바로 소낭입니다.
+        이 소낭에 모이가 걸려있을 경우 새가 급체를 하게 됩니다. 모이 배합 혹은 모이의 종류를 갑자기 변경했을 경우에 잘 생기는데 간혹 새가 너무 급하게 먹어서 생기는 경우도 있습니다. 경미한 경우 미지근한 물에 포도주 3-4방울을 섞어 스포이드로 먹이고
+        소낭을 복부 쪽으로 문질러 걸려있는 모이를 이동시킵니다. 중증일 경우 소낭을 절개하여 뭉쳐진 모이를 꺼내야 합니다(수의사와 상담요망).</string>
+    <string name="parrot_info3">변비: 증상으로는 굳은 변, 항문을 상하로 흔드는 것 등이 나타납니다. 원인으로는 지방과다, 물부족, 갑작스런 모이변경, 부적합한 모이, 운동부족 등이 있으며
+        치료는 스포이드로 올리브유를 1-2방울 먹이고 중증인 경우에는 항문에도 두 방울 넣어주도록 합니다.</string>
+    <string name="parrot_info4">장염: 증상으로는 설사도 나타나지만 일반적인 설사와는 다르게 항문주위가 더러움, 갈증, 식욕부진, 깃털이 부풀어있는 점도 같이 나타납니다.이는 세균 감염, 갑작스런 추위, 찬바람, 불결한 모이, 심한 스트레스, 공포로 인해 생기며
+        치료는 세균감염이 원인일 때에는 항생제를 투여하도록 하고 세균에 의한 것이 아닐 경우 당분간 야채를 주지말고 신선한 모이와 물을 공급하며 보온에 신경을 쓰도록 합니다.</string>
+    <string name="parrot_info5">소낭염: 증상으로는 점액성 구토 및 소화불량이 나타납니다. 원인으로는 감염 병원체, 새에게는 해로운 사람이 쓰는 화학 물질, 영양 불균형 등이 있습니다.
+        치료는 세균이 원인일 경우 항생제와 비타민제를 하루 세 번 투여하며 부드러운 모이와 신선한 야채를 공급해주도록 합니다.</string>
+    <string name="parrot_info6">감기 및 기관지염: 증상으로는 재채기, 콧물, 눈물, 빠른 호흡이 있으며 깃털을 부풀린 채 웅크리고 있는 모습을 보이기도 합니다. 사람의 감기와 같이찬바람에 많이 노출되거나 추운 날씨에 수욕했을 경우에 걸리기 쉽습니다.
+치료는 온도를 따뜻하게 유지해주며 콧구멍이 막혀있을 경우 부드러운 물수건으로 닦아주고 물에 포도주를 조금 섞어서 스포이드로 먹입니다. 또한 설파제를 물에 섞어서 투여해줍니다.</string>
+    <string name="parrot_info7">아스페르길루스증: 누룩곰팡이의 일종인 아스페르길루스 곰팡이가 증식해서 생기는 병입니다. 증상으로는 가쁜 호흡이 나타납니다. 또한 특이한 점으로 입 속을 보면 하얀 치즈 같은 것이 붙어있는데 이는 아스페리길루스 곰팡이가 증식한 것입니다.
+        아스페르길루스 곰팡이가 기낭이나 폐에 번식했기 때문에 생기는 병입니다. 치료는 곰팡이에 잘 듣는 오레오마이신등을 물에 녹여 분무하는 방식으로 흡입 시켜줍니다.</string>
+    <string name="parrot_info8">편모충증: 목구멍안쪽에 치즈같은 것이 뭉쳐져 있고 이것으로 인해 먹이를 먹는데 곤란을 겪는 증상을 보입니다. 입으로 전염되는 원생동물의 일종인 트리코모나스 원충이 원인입니다.
+        치료는 다른 새들과 같이 키우는 경우 전염을 막기 위해 아픈 새를 격리시켜 보온하고 100cc의 물에 과망간산칼륨 1-2mg을 희석해서 주도록 합니다. 그리고 설파제를 물에 조금 타서 먹여주도록 합니다.</string>
+    <string name="parrot_info9">조류 콕시듐증: 주로 어린 새에게 많이 나타납니다. 먹는 것에 비해 살이 찌지 않는 증상을 보이고 장의 문제로 인해 변비 또는 설사를 하거나 심할 경우 죽는 수도 있습니다.
+        콕시듐 원충이 장관에 기생하여 발병합니다. 설파제를 물에 타서 먹이고 동물병원에서 치료를 받도록 합니다. 또한 콕시듐 원충의 알은 배설물을 통해 전염되므로 여러 새들을 키우는 경우
+        아픈 새를 격리 후 치료하고 새장 주변을 완전히 소독해야 합니다.</string>
+    <string name="parrot_info10">알막힘: 깃털을 부풀린채 웅크리고 있으며 새의 하복부가 막힌 알로 부풀어 있는 증상을 보입니다. 주로 잉꼬나 모란앵무와 같이 작은 새에게서 자주 보이며 그대로 방치하면 총배설강으로 이뤄진 새의
+        배설계 구조 특징상 변도 보지 못하고 그대로 죽게됩니다. 주로 수난관의 혈액장애, 칼슘부족, 연동작용부족, 갑작스런 추위가 원인입니다. 치료는 온도를 따뜻하게 해주고 물과 포도주 2:1의 용액을 3-4방울 먹이도록 합니다.
+        그리고 30분정도 알낳기를 기다리다가 그래도 낳지 못하면 스포이드로 올리브유등을 항문에 넣고 배란을 촉진 시키기 위하여 복부를 문질러줍니다.</string>
+    <string name="parrot_info11">개선증(옴): 잉꼬에게 흔하게 발견되며 부리주변 또는 눈주위 등의 피부가 딱지처럼 두터워지는 증상을 보입니다. 이 증상이 심해지면 부리의 표면이 거칠어지며 눈 주위의 깃털도 빠지고 하얀 딱지가 생기며 가려워서 긁는 모습을 보입니다.
+        옴진드기라 불리는 개선충이 피부에 기생하여 발합니다. 다른 새들과 같이 키우는 경우 옴진드기의 전염성이 강하므로 아픈 새를 격리시키고 새장을 열탕 소독해야 합니다. 치료는 면봉에 유황제 또는 페니실린 연고나 오이락스 연고를 환부에 바르도록 하고 이를 하루에 3회 일주일동안 반복합니다.</string>
+    <string name="parrot_info12">탈모증: 드문드문 털이 빠지거나 완전히 탈모가 되는 증상을 보입니다. 근친번식에 의한 탈모는 깃털의 뿌리가 검게 보입니다. 또한 왕관앵무의 경우 근친으로 나온 개체는 우관이 없고 우관이 있을 자리에 깃털이 없는 증상을 보이기도 합니다.
+        유전, 환경, 영양결핍 등이 원인입니다. 탈모증은 아쉽게도 특별한 치료법이 없습니다. 평소에 앵무새에게 좋은 환경을 마련해주고 근친번식을 피하는 것이 중요합니다.</string>
+    <string name="parrot_info13">식모증: 주로 지능이 높은 앵무새들에게 많이 나타납니다. 부리로 털을 뽑는 모습을 보입니다. 스트레스, 영양결핍, 애정결핍 등이 원인입니다. 회색앵무나 유황앵무처럼 머리가 좋은 앵무새들의 경우 주인의 관심을 끌기 위해 이런 행동을 합니다. 이때 주인이 털을 뽑는 행위 자체에 관심을 가져주는 모습을 보이면
+        앵무새는 관심을 더 받기 위해 이 행동을 더 심하게 반복하게 됩니다. 따라서 털을 뽑는 행위를 할 경우 단호하게 혼내고 못하도록 하는게 중요하며 목에다 두꺼운 종이로 목 타래를 둥글게 만들어서 씌어주어 털을 뽑는 것을 원천적으로 못하게 해야합니다.
+        또한 영양공급을 균형있게 하고 앵무새에게 평소에도 많은 관심과 사랑을 주며 키워야 하며 넓은 새장을 사용하여 스트레스를 방지해야합니다.</string>
+    <string name="parrot_info14">각약증: 발가락이 꼬부라져있거나 빳빳이 펴져있어 잘 걸을 수 없는 증상을 보입니다. 비타민 B복합체, 비타민D, 칼슘 부족이 원인입니다. 치료는 환부를 바른 자세로 만들고 깁스를 하며 영양제를 물에 타서 먹이는 것으로 이뤄집니다.</string>
+    <string name="parrot_info15">갑상선 질환: 거친 숨을 쉬거나 괴로운 소리를 내며 새의 목구멍 양쪽이 부어있는 모습을 보입니다. 사람의 갑상선 질환과 마찬가지로 영양 성분 중 요오드부족이 원인입니다. 치료는 물30cc에 요오드 한방울을 섞어 먹이는 것으로 이뤄집니다.</string>
+    <string name="parrot_info16">육종: 종양의 일종.사마귀 같은 것이 눈 주위, 부리주위, 날개등에 생깁니다. 근본적인 원인에 대해서는 알려져 있지 않으며 동물병원에 방문해서 수술을 해야합니다.</string>
+    <string name="parrot_info17">카나리아두: 눈 주위,부리주위,목등에 흰 부스럼이 생기고 깃털을 부풀리고 거친 숨을 쉬는 증상을 보입니다. 전염성 바이러스가 원인이며 항바이러스제가 없기 때문에 치료방법이 없습니다. 따라서 다른 새와 같이 기르는 경우 아픈 앵무새를 격리시키고 동물병원에 데려가도록 합니다.</string>
+    <string name="parrot_info18">앵무새병: 깃털을 부풀림, 녹색설사, 콧물과 같은 증상을 보입니다. 앵무새병을 일으키는 클라미디아 세균에게 감염되어 생기는 질병으로 앵무새 외에도 다른 종류의 새에게도 전염되며 인수공통전염병이라 사람에게 전염될 수도 있습니다. 사람에게 전염될 경우 심각한 폐렴을 일으킬 수 있으므로 아픈 새를
+        격리하고 접촉할 때 각별히 주의해야합니다. 치료는 오레오마이신, 테트라사이클린 등의 항생제를 물에 녹여서 투여하도록 합니다. 또한 동물병원에 데려가서 진료를 받는 것도 중요합니다.</string>
+    <string name="parrot_info19">신경증: 새가 새장 바닥에 떨어져서 발작이나 심한 경련을 일으키며 증상이 심한 경우 죽을 수도 있습니다. 곰팡이균인 아스페르길루스균이나 세균인 살모넬라균등에 감염되어 이런 균들이 뇌를 침투하해서 생기거나 뇌종양으로 인해 생기기도 합니다. 불치병이라 딱히 치료방법은 없습니다.</string>
+    <string name="parrot_info20">골절: 부서진 곳을 제대로 펴지 못하거나 제대로 걸어다니지 못하며 골절부위가 뭔가와 접촉할 때 굉장히 괴로워하는 증상을 보입니다. 응급처치로 성냥개비를 부목으로 사용하여 테입을 감아줍니다. 또한 딱딱한 종이나 반창고를 사용하여 튼튼히 고정시켜 감아줍니다.
+        골절치료는 전문적인 분야이기 때문에 수의사에게 의뢰하는 것이 바람직합니다.</string>
+    <string name="parrot_info21">새 벼룩: 새가 분주하게 움직인다. 날개를 퍼득이는 모습을 보입니다. 밤에 특히 심한데 야행성인 새 벼룩이 밤에 새에게 달라붙어 괴롭히기 때문입니다. 새장을 구입할 때 주로 묻어서 들어오거나 간혹 가다가 외부에서 유입되기도 합니다.
+        벼룩이 새장에 숨어있기 때문에 벼룩이 새로부터 떨어져있는 낮에 새를 다른 새장으로 옮깁니다. 그 후 새장을 열탕소독하고 새 벼룩의 구제약품인 PGP로 새 벼룩을 퇴치합니다.</string>
+    <string name="parrot_info22">새 응애: 새가 몹시 가려워하고 자주 긁는 모습을 보입니다. 그다지 치명적이지는 않지만 방치하면 새가 식욕을 잃어 영양실조가 되기 쉽습니다. 진드기의 일종인 응애가 새에게 기생해서 생깁니다.
+        치료는 제충국의 분말을 새의 날개 속같은 곳에 비벼 넣은 후 조금 후에 털어내어 응애가 떨어져 나오게 하도록 합니다. 그리고 수욕을 시킨 후 분말을 물에 타서 씻어주고 며칠 후 다시 한 번 실시합니다.</string>
+    <string name="parrot_info23">새 빈대: 새 벼룩의 증상과 거의 비슷한데 어린 새의 경우 몹시 괴로워하는 모습을 보입니다. 집에 사는 빈대가 새장에 옮겨가서 발병하며 새 벼룩의 구제방법과 동일합니다.</string>
+    <string name="parrot_info24">안검염: 붉은 반점과 결막의 염증성 부종이 증상으로 나타납니다. 외상, 자격, 세균, 바이러스 등이 원인입니다. 치료는 외상이나 자격에 의한 안검염은 안연고와 항생제를 근육주사하여 치료하도록 합니다.
+        세균성이나 바이러스성 안검염은 치료가 어려우므로 동물병원에 방문하도록 합니다.</string>
+    <string name="parrot_info25">결막염: 눈꺼풀이 두꺼워지고 눈에서 분비물같은 것이 나오는 증상을 보입니다. 심하면 눈꺼풀이 달라붙습니다. 세균이나 바이러스가 원인입니다. 치료는 안약을 투여하거나 항생제를 주사하도록 합니다.</string>
+    <string name="parrot_info26">안구건조증: 눈꼽이 끼고 눈꺼풀이 부어 오르며 잠행성 결막염과 각막궤양이 생기는 증상을 보입니다. 비타민A의 결핍이 원인이므로 비타민 A보충제를 앵무새에게 주면 괜찮아집니다.</string>
+    <string name="reptile_info1">임팩션: 모래나 흙, 기타 이물질을 먹었을 때 배탈이 나는 증상으로는 먹이를 먹지 않고 소화 및 배설장애를 일으킵니다. 증세가 심하면 죽음에도 이를 수 있으므로 주의해야 합니다.
+어린 개체는 바닥재로 파충류전용 카펫을 사용하는 것이 권장되며, 가급적 입자가 큰 렙티바크 등 쉽게 삼키지 못하는 재료를 사용하여 예방하도록 합니다.</string>
+    <string name="reptile_info2">마우스락: 파충류의 입 속에 염증이 생기는 구강염입니다. 입주변이 부어오를 수 있고 심하면 고름과 피가 날 수 있으며, 이빨이 빠질 수도 있습니다.
+입 주변이 부어오르고 모양이 변하거나 별다른 이유가 없는데 먹이를 먹지 않는다면 의심해 봐야합니다. 치료는 입안을 살펴보고 염증부위를 요오드나 과산화수소를 물과 1:1로 섞어서 면봉에 묻혀 닦아주도록 합니다.
+ 이 질병으로 인해 먹이를 먹지 않는다면 강제로 입을 벌리고 먹이를 공급하는 포스피딩을 해 줘야합니다.</string>
+    <string name="reptile_info3">감기: 파충류도 사람이나 조류와 마찬가지로 감기에 걸리 수 있으며 주로 적절치 못한 온도변화가 원인입니다. 콧물을 흘리며 활동량이 적어지고 거식을 하는 등의 증상을 보입니다.
+파충류의 감기치료제인 세라브론치퍼를 먹이에 섞어서 3일간 먹입니다.</string>
+    <string name="reptile_info4">MBD(뼈 발육부진 질환): 뼈가 말랑해져서 휘어지고, 부러지기도 쉬워지며 턱도 부드러워져서 아구가 맞지 않게 되고 성장도 정상적으로 안됩니다. 움직임도 둔해지고 스스로도 스트레스로 인해 거식을 보이기도 하며 각종 합병증도 따라 올 수 있는 위험한 질병입니다.
+모든 파충류에게서 나타날 수 있으며 굉장히 복잡한 이유로 발생합니다. 밝혀진 원인으로는 체내 칼슘 또는 비타민 D가 지나치게 낮은 반면 인 수치는 지나치게 높은 경우, 자외선 B 파장에 부적절하게 노출되어 비타민 D 생성과 칼슘 대사작용이 저해된 경우가 있습니다.
+치료는 거북이나 주행성도마뱀의 경우 자연채광을 충분히 받지 못한다면 반드시 UVB등을 하루 12시간 쪼여주도록 하며 이와 함께 칼슘제를 먹이에 섞어서 주거나 별도의 그릇에 담아서 사육장에 넣어주도록 합니다.
+UVB일광욕과 칼슘은 건강한 개체라도 어릴 때 부터 예방차원 에서 반드시 공급해 주는 것이 좋습니다. 하지만 야행성도마뱀의 경우에는 UVB일광욕이 필요없고 칼슘제만 먹이면 됩니다.</string>
+    <string name="reptile_info5">설사: 평소에 비해 묽거나 끈적끈적한 변을 보입니다. 파충류는 습기가 포함된 묽은 똥을 싸는것이 정상이지만 낮은 기온이나 차가운 물이나 상한 음식의 섭취, 혹은 지저분한 사육장 환경등의 이유로 설사를 하게 됩니다.
+치료는 온도를 즉각 30정도로 올려주고 설사치료제인 세라디로퍼R을 먹이에 섞어 3일간 투여하도록 합니다.</string>
+    <string name="reptile_info6">곰팡이 질환: 점차적으로 식욕이 저하되고 체중이 감소되는 모습을 보입니다. 어느 부분에 곰팡이가 감염되느냐에 따라서 증상은 다르게 나타납니다. 곰팡이 질환은 과한 습도나 저온, 타 질환으로 인해 면역능력이 저하된 상태, 스트레서, 영양 불균형, 상처, 비위생적
+환경등에 의해 발생합니다. 치료는 항진균제를 사용하도록 하며 감염부위를 외과적인 수술로 절제하기도 합니다. 곰팡이 질환으로 인한 증상의 완전한 회복은 드문 편입니다.</string>
+    <string name="reptile_info7">크리토스포리디어시증: 구토, 설사, 식욕저하, 체중감소, 허약, 위장과 내막이 두꺼워 지는 등의 증상을 보입니다. 파충류의 질환 중에 가장 심각한 문제를 일으키는 질환 중 하나입니다. 원인은 크리토스포리디움이라는 원생동믈에 의해 감염되어 생깁니다. 이 원생동물에
+감염된 동물이나 그 동물의 변과 접촉하거나 감염된 음식에 의해 전염됩니다. 불행히도 이 질병에 대한 치료법은 없습니다. </string>
+    <string name="reptile_info8">허피스바이러스 감염증: 간 비대, 소화 불량, 구내 통증, 입이나 눈에서 나오는 비정상적 분비물등의 증상을 보입니다. 또한 입안에 있는 점막의 세포가 죽어서 입안이 하얗게 된 것을 보고 쉽게 허피스바이러스 감염증임을 알 수 있습니다.
+원인은 허피스바이러스에 의해 감염되어 생기며 치료는 보통 항바이러스를 투여하는 것으로 끝이나 구내 통증이 심한 경우는 연고를 주거나 다른 장기의 문제가 있을 경우에는 따로 약을 먹이기도 합니다.</string>
+    <string name="reptile_info9">총배설강염: 파충류도 조류와 마찬가지로 소화계, 배설계, 생식계의 분비물들이 나오는 통로가 마지막에 하나로 합쳐저 있어서 외부와 하나의 구멍 형태로 이어져 있습니다. 이를 총배설강이라 하는데 이 총배설강에 염증이 생기는 병이 총배설강염입니다.
+증상은 배설강 주변의 조직이 부어있거나 피가 배설강에서 나오는 것으로 주로 총배설강 부위의 세균이나 바이러스 감염에 의해 생깁니다. 이러한 감염은 확실한 원인을 특정할 수는 없지만 불균형한 식단으로 인해 생기는 장내 기생충이나 결석이 원인이 될 수 있습니다.
+치료는 배설강 내에 결석이 존재할 경우에 이를 제거하거나 기생충으로 인한 염증의 경우 구충제를 투여하도록 합니다. 또한 외과적 수술을 통해 손상된 조직을 제거하고 염증이 있는 부위를 소독하고 항생제를 발라줍니다.</string>
+    <string name="reptile_info10">체내농양: 체내 농양의 경우 농양안에 농이 가득 차 있기 때문에 농양이 있는 부분 주위는 붉고 자극을 받은 상태입니다. 이 때문에 아픈 파충류는 불편함 때문에 벽에다가 몸을 계속적으로 긁는 모습을 보입니다.
+뱀의 경우 다른 파충류와는 다르게 액체 형태의 농이 아닌 치즈와 비슷한 걸쭉한 형태의 농이 있습니다. 이러한 체내 농양은 보통 세균 감염에 의해서 생기며 전신에 농양이 있는 경우 혈액 내의 세균 침투로 인한 패혈증이 원인입니다. 치료를 위해서는 항생제를 투여하며
+체내농양 치료가 완료된 후에도 국소적으로 항생제를 주사해서 농양 부위의 치료를 합니다.</string>
+    <string name="reptile_info11">진드기 감염: 진드기가 파충류 몸에 기생하여 흡혈을 하고 붙어 있으며 이로 인한 스트레스로 식욕이 감퇴하는 모습을 보입니다. 주로 파충류를 밖에서 산책시키고 들어올 때 묻어서 오는 경우가 많기 때문에 바깥 산책을 다녀왔을 경우 온욕을 시키고 미네랄 오일로 비늘을 닦는 것이 좋습니다.
+파충류에게 진드기가 기생하고 있는 경우 3일이상 장시간 온욕을 해서 진드기를 익사시켜 떨어트리게 됩니다. 이때 파충류 전용 진드기 제거제를 사용하면 효과적입니다. 또한 다른 파충류를 키우는 경우 전염성이 있으므로 감염된 파충류를 격리한 상태로 치료하며
+사육장을 깨끗하게 소독해서 혹시나 남아있을 수 있는 진드기를 퇴치해줍니다.</string>
+    <string name="reptile_info12">장내기생충 감염: 식욕 저하, 체중 감소, 구토나 되새김질, 비정상적인 변상, 설사 등의 증상을 보입니다. 간혹가다가 구토를 했는데 토사물에 기생충이 보이는 경우도 있습니다. 장내 기생충의 유충은 혈관을 타고 몸의 다른 부분으로 이동해서 호흡기계 질환이나 폐렴을 일으키기도 합니다.
+다양한 기생충에 감염된 경우 증상이 심하면 죽기도 합니다. 전염성이 있으므로 다른 파충류들과 기르는 경우 아픈 파충류를 격리한 상태로 치료하면 구충제를 투여하여 치료하도록 합니다. 완전한 기생충 구제를 2번 정도 치료를 반복해서 해야합니다.</string>
+    <string name="reptile_info13">IBD: 뱀에게 나타나는 질병으로 주로 보아뱀에게서 가장 많이 발견되지만 파이톤이나 다른 뱀에게서도 발견됩니다. 증상은 허약, 식욕 저하, 체중 감소, 구토, 피부궤양, 상처 치유 지연, 세균 감염 등이 있습니다.
+ 증상은 갑자기 나타나지만 보아뱀에게서는 잠복기가 갈이서 감염 후 몇 년 정도 지난 뒤에 나타나기도 합니다. 또한 체내에 이 질병을 일으키는 바이러스가 오래 존재한 경우에는 신경증상으로 일어날 수 있으며
+감염 된 뱀들 중에 보아뱀은 오래 사는 편이나 파이톤은 보통 몇 일 또는 몇 주일 내로 죽습니다. 이 질병은 사람에게 에이즈를 일으키는 HIV가 속한 종류인 레트로 바이러스의 일종이 일으키며
+뱀들 사이의 교미나 교상, 뱀 진드기, 바이러스에 오염된 배설물이나 감염된 동물이 사용하던 물건 등으로 전파됩니다. 이 질병에 대한 치료법은 현재까지 없으나 전염성이 있는 질병이므로 다른 뱀들과 같이 키우는 경우
+아픈 뱀을 격리하고 동물병원에 데려갈 수 있도록 합니다.</string>
+    <string name="reptile_info14">알막힘: 파충류도 알로 번식하는 특성을 가지고 있는 이상 조류와 같이 알막힘이 생길 수 있습니다. 증상은 총배설강이 늘어져 있거나 부푼 상태가 보이며 상태가 악화되면 파충류가 우울하고 허약한 모습을 보이며 총배설강으로부터의 조직들이 앞으로 나와있는 형태를 보이기도 합니다.
+질병, 영양부족, 적당한 보금자리 부족, 운동부족으로 인해 약해진 근육, 비대한 알, 골반부 부상, 난관부 협소, 부적절한 온도와 습도 관리 등이 원인으로 작용합니다. 알을 낳는 암컷이 괜찮은 상태로 보이면 산란에 적당한 환경을 조성해 주어서 다시 알을 낳게 할 수 있습니다. 하지만 도움이 필요한 상태일 경우
+난관을 부드럽게 마사지 해주어 알이 나오도록 하거나 동물병원에 데려가서 호르몬 주사를 놓는 등의 방법을 씁니다. 하지만 이런 방법이 소용이 없을 경우 주삿바늘이나 실린지, 외과적 수술을 통해 알을 제거합니다.</string>
+    <string name="reptile_info15">스타게이징 신드롬: 파충류가 머리와 목이 꼬잍 채로 하늘을 보고 있는 자세를 취하게 됩니다. 특히 뱀에게 심하게 나타나며 이 자세 그 자체가 질병이라고 말할 수는 없지만 다른 질병의 증상으로 나타납니다. 이 스타게이징 자세와 같이 나타나는 증상들로는 발작, 우울, 운동장애 등이 나타나며 이는 질병이나 부상으로 인해서 중추신경계가
+정상적으로 기능하지 못하기 때문에 발생합니다. 원인이 워낙 다양하기 때문에 이런 자세를 취할 경우 동물병원에 데려가서 정밀 검사를 받아보도록 하며 이에 대한 치료 방법도 어떤 질병에 걸려있느냐에 따라 다릅니다.</string>
+    <string name="reptile_info16">설충 감염: 설충은 다양한 파충류 종류에서 흔하게 볼 수 있는 내부 기생충입니다. 이 기생충은 파충류의 몸 어느 조직에도 감염이 가능하기 때문에  증상은 감염된 조직이 어디냐에 따라 다양해집니다. 보통 폐렴이 감염되면 나타나는 주요증상으로  설충은 사람에게도 전염이 가능하기 때문에 설충에 감염된 것으로 의심되면
+바로 동물병원에 데려가도록 해야합니다. 치료는 구충제를 이용해 이뤄지며 완전한 제거를 위해서는 복강경을 통해 내부에 있는 설충의 본체를 완전 제거해야합니다.</string>
+    <string name="reptile_info17">아데노바이러스 감염증: 설사, 체중 감소, 허약, 우울 등의 증상을 보이며 불행하게도 이러한 증상을 온전히 다 보이기도 전에 죽는 경우도 많습니다. 어린 비어디드 드래곤이 이 병에 제일 예민하게 반응하며 원인으로는 오염된 분변을 통한 접촉이 대표적입니다. 이 바이러스는 전염성이 상당히 높기 때문에
+아픈 파충류를 다른 파충류들과 기를 경우 90일 정도 격리해야 전염을 막을 수 있습니다. 이 바이러스 자체에 대한 치료법은 없지만 수액 요법, 영양 보충, 항생제 투여와 같이 대증요법을 통해 회복을 도울 수 있습니다.</string>
+    <string name="reptile_info18">파충류 아메바증: 식욕 저하, 체중 감소, 구토, 점액이나 혈액이 포함된 설사 등의 증상을 보입니다. 이 아메바증은 파충류에게 가장 심각한 질병중 하나이며 원생동물인 엔타아메바에 의해 감염되어 발생합니다. 이 병은 제때 치료하지 못하는 경우 치명적이며 육식하는 파충류가 더 잘 걸리는 경향을 보입니다.
+원인은 감염된 파충류의 분변과 접촉하는 경우를 들 수 있으며 아메바증이 전염성이 높으며 사람에게도 감염될 수 있기 때문에 감염된 파충류를 격리 치료 하는 것이 중요합니다. 치료를 위해서는 항원생동물제제를 사용합니다. </string>
+    <string name="rodent_info1">토끼 스너플스: 토끼의 병 중에서도 가장 걸리기 쉬운 전염병의 하나입니다. 호흡기 증상이 주로 나타나며 초기에는 열이 나고 귀 등이 평소보다 빨갛게 느껴지다가 점점 재채기, 기침, 콧물 등의 증상이 나타납니다. 콧물은 처음에는 물 같지만 점차 점도가 더해져서 노란색의 농처럼 되며, 몇 개월 동안 계속 나옵니다. 토끼는 괴롭기 때문에 앞발로 자꾸 코 주위를 문지르기 때문에 얼굴이 더럽혀집니다. 이게 더욱 진행이 되서 중증이 되면 폐렴이나 폐농양을 일으키게 됩니다.
+        이 병은 파스투넬라 균이 원인이며 경비 전염이라고 해서 병든 토끼의 재채기나 기침의 비말이 공기 중에 날아가서 다른 건강한 토끼에게 전염됩니다. 다른 토끼들과 같이 사육하는 경우 아픈 토끼를 격리하고 사육 상자는 잘 씻어서 소독해 줍니다. 병든 토끼를 만진 손으로 다른 토끼를 만지지 않도록 주의합니다.</string>
+    <string name="rodent_info2">토끼 점액성 장염: 주로 젊은 토끼에서 많이 발생합니다. 사료를 갑자기 바꾸거나 녹색의 먹이를 너무 많이 주게 되면 증상이 나빠지며 복부가 부풀거나 점액성이 많은 설사를 합니다. 또한 식욕이 서서히 감퇴하고 기운도 없어지며 털이 거칠어지고 윤기가 없어집니다. 세균이나 바이러스이 주로 원인입니다.
+        곧바로 수의사에게 알려 2차 패혈증 방지를 위해 항생 물질을 투여하며 다른 토끼들과 같이 기르는 경우 병의 우려가 있는 토끼는 격리하도록 하고 정기적인 검사를 한다.</string>
+    <string name="rodent_info3">토끼 콕시디듐증: 토끼의 콕시디움 원충은 간장에 기생하는 간형과 내장에 기생하는 내장형 두 종류가 있습니다. 간형의 경우 기운이 없고 서서히 말라가며 간이 커져서 복부가 크게 부어오르는 일도 있습니다. 또한 내장형 콕시디움 감염증에서는 처음에는 식욕이 없어지고 설사를 하다가 차츰 혈변을 보게 되어 체중 감소, 심한 탈수 증세 등을 보이다가 심하면 죽게 됩니다. 이 병은 원생동물의 일종인 콕시디움 원충에 의해 발생하며 감염된 토끼의 분변이랑 접촉하여 전염됩니다. 콕시디움은 유충을 배출하므로 변을 검사하면 이 병을 쉽게 진단할 수 있습니다.
+        질병이 발생하면 수의사를 찾아야 하며 다른 토끼들과 키운다면 다른 토끼들에게 전염될 우려가 있으므로 케이지를 깨끗이 닦아 주고, 격리하는 것이 무엇보다 중요합니다. 토끼가 컨디션이 좋을 때는 발병하지 않으나 환절기나 장마철 그리고 이유기에는 사료를 바꾸는 것도 장기에 스트레스를 주게 되며 이는 콕시디움 감염증을 유발할 수 있습니다.</string>
+    <string name="rodent_info4">토끼 점액종: 증상으로는 결막염, 코와 입술 주변의 부종이 두드러지며, 두부의 부종으로 인해 귀가 아래로 처지는 일도 있습니다. 바이러스에 의해 발병하는 질환으로 모기나 벼룩이 매개체가 됩니다. 아직 확실한 치료제는 없습니다. 만약 걸렸다 생각되면 전염되지 않도록 격리해야 하며, 평소 모기나 벼룩이 발생하지 않도록 신경을 써주도록 합니다.</string>
+    <string name="rodent_info5">토끼 트레퍼네머토시스: 주요 증상은 외음부의 수포와 궤양이지만 때로는 입술, 코, 눈에도 궤양이 생길 수 있습니다. 사망하는 일은 드문 일이지만 식욕이 줄어들기 때문에 점점 체중이 감소합니다. 세균에 의해 생기는 성병으로 주로 교미를 통해서 감염됩니다. 항생 물질을 투여하면 시간이 오래 걸리지만 완치할 수 있는 병입니다. 이 병은 교미로 인해 감염되므로 전염을 막기 위해서는 번식을 시키지 말아야 합니다.</string>
+    <string name="rodent_info6">토끼 구강 내의 이상: 침을 많이 흘리고 먹이를 잘 먹지 못하며 먹는 데 시간이 걸는 모습을 보입니다. 이는 칼슘과 인의 불균형, 선천적인 부정교합에 의해 생깁니다. 또한 너무 자란 문치가 우리에 있는 철망에 걸려서 부서진 경우에도 같은 증상을 나타냅니다. 이를 막기 위해서는 평소 지나치게 자란 절치나 구치를 절단하는 것이 좋습니다. 또한 토끼나 설치류의 문치는 점점 자라기 때문에 늘 갈아서 닳게 해주어야 하며 딱딱한 것을 물어뜯게 해주어야 합니다.
+        영향 불균형에 의한 구강 내 이상의 경우 칼슘이나 인의 보충제를 투여해 영양 균형을 맞춰주는 것이 필요하며 선천적인 부정교합은 동물병원을 방문해 보는 것이 좋습니다.</string>
+    <string name="rodent_info7">토끼 바이러스성 출혈열: 토끼 바이러스성 출혈열에 감염된 토끼의 증상은 심급성형, 급성형 및 만성형 등으로 나눌 수 있습니다. 심급성형은 식욕이 정상이며 건강한 토끼가 특별한 증상 없이 갑자기 사망하게 되는 경우이며, 급성형은 식욕이 떨어지고 원기가 불량하다가 체온이 상승한 후 12-24시간 후에 죽게 됩니다. 입 주위에 거품 섞인 혈액이 묻어있거나 발작, 괴성을 지르며, 고개를 뒤로 젖히고 죽는 때도 있습니다. 만성형은 감염된 토끼가 1~2주 정도 증상이 계속된 후 죽거나 회복합니다.
+        80%의 폐사율을 보이는 굉장히 위험한 질병이지만 바이러스에 의한 질병이라는 특성으로 인해 항바이러스제가 없어서 안타깝게도 치료는 힘듭니다. 하지만 예방접종은 시행할 수 있으며 예방효과는 확실하므로 동물병원에서 예방접종을 맞는 것을 권장합니다.</string>
+    <string name="rodent_info8">기니피그 고창증: 맹장과 위에 과도한 가스가 차는 질병으로 식욕부진, 복부팽만, 소화불량이 주요한 증상입니다. 잘못된 식습관 및 치과 질환이 원인이 될 수 있으며 치사율이 60%가 넘어가는 무서운 질병입니다. 치료는 맹장 내의 장내 세균들을 유지하고 질병으로 인한 통증을 완화하며 식습관을 개선하는 것으로 이뤄집니다.</string>
+    <string name="rodent_info9">기니피그 치과 질환: 침 흘림, 식욕부진의 증상을 보입니다. 자라나는 이빨을 주기적으로 갈아줘야 하는 설치류의 특성상 이갈이 문제가 원인으로 작용합니다. 치과 질환이 심해질 경우 고창증을 유발 할 수 있기 때문에 적절한 시기에 치과 수술을 하는 것이 좋습니다.</string>
+    <string name="rodent_info10">기니피그 방광결석: 배뇨 곤란 및 혈뇨, 굉장한 통증 등이 주요 증상입니다. 심한 경우 식욕 부전을 동반할 수 있는 질병입니다. 적절한 먹이를 섭취하지 못했을 때 생기는 영양 불균형으로 인해 발병합니다. 치료는 주로 약물을 통해 이뤄지지만 결석의 크기가 크다면 수술로 제거를 하도록 합니다.</string>
+    <string name="rodent_info11">기니피그 피부각화증: 피부가 딱딱해지며 변형되는 증상을 보입니다. 심한 경우 발가락, 연골, 뼈까지도 변형을 일으킬 수 있으며 심한 통증을 유발합니다. 게다가 이로 인해 유발된 스트레스는 고창증을 유발할 수 있으므로 생명에 영향을 끼칠 수 있습니다. 피부 밑에 서식하는 진드기에 의해 발병하며 진드기에 취약한 기니피그 특성상 각화증에 잘 걸립니다. 치료는 진드기 퇴치에 중점을 두고 이뤄지며 약물치료도 같이 실시합니다. </string>
+    <string name="rodent_info12">햄스터 알레르기성 비염: 재채기, 콧물, 호흡 곤란 등의 증상이 나타나며 유전적 문제나 소재, 바닥재 인한 알레르기로 인해 발병합니다. 특히 건조한 목초로부터 나오는 가루들이 알레르기성 비염을 유발할 수 있습니다. 소재, 바닥재를 알레르기를 유발하지 않는 제품으로 바꾸면 사라집니다.</string>
+    <string name="rodent_info13">햄스터 감기: 재채기, 콧물, 발열, 기침, 비정상인 호흡, 식욕 저하, 피로 등의 증상이 나타납니다. 병이 더 심해지면 기관지염으로 발전하며 심한 경우 구토, 설사 등이 나타나기도 합니다. 급격한 온도 변화, 비위생적인 주거 환경에 의한 세균 감염, 사람으로부터의 감염 등이 원인으로 나타납니다. 항생제, 비타민제를 주거나 햄스터에게 좋은 환경을 마련해 주는 것이 중요합니다.</string>
+    <string name="rodent_info14">햄스터 간성뇌증/간성 혼수: 발작을 일으키며 이상 행동을 보입니다. 간장 질환의 합병증으로 생기며 뇌와 신경이 비정상적으로 변해 성격까지 바뀌는 모습을 보입니다. 간경변, 간염으로 인해 간이 제대로 작동하지 않아 분해되어야 할 독이 뇌에 작용하는 경우, 독극물을 섭취하여 독극물이 뇌에 작용하는 경우에 발병합니다. 간장 기능을 개선해주는 약을 투여하거나 동물병원에 데려가서 치료를 받아야 합니다.</string>
+    <string name="rodent_info15">햄스터 아밀로이드증: 다음 다뇨, 몸의 부종, 식욕 부진, 손발의 저림. 변비와 설사의 반복 등이 증상으로 나타납니다. 심할 경우 사망할 수 있습니다. 아밀로이드로 불리는 단백질이 모든 장기의 세포안에 축적하여 생기는데 이는 유전적인 문제가 원인으로 작용합니다. 때문에 근본적인 치료방법은 없으며 약을 통해 증상을 억제하는 대증요법을 치료에 이용합니다.</string>
+    <string name="rodent_info16">햄스터 폐수종 및 복수증: 호흡 곤란, 배가 부풀어 오름, 식욕 부진 등의 증상을 보입니다. 심한 경우 증상이 나타난 날에 바로 죽기도 합니다. 심근증이라고 하는 심장이 비대하는 병에 의한 합병증으로 주로 발병합니다. 치료는 폐 안의 물을 제거하는 것이 중요하며 산소 흡입, 강심제 투여, 이뇨제 투여 등으로 이뤄집니다. </string>
+    <string name="rodent_info17">고슴도치 피부병: 등이 훤히 보일 정도로 가시가 빠져 있으며 심할 경우 피부에서 출혈이 보이기도 합니다. 베딩이 원인이 될 수 있으며 외부 기생충의 감염이나 잘못된 샴푸 사용으로 인해 발병하기도 합니다. 또한 주변의 물건에 가시를 바르는 안팅이라는 고슴도치의 행동 특성으로 인해 생기기도 합니다. 베딩의 종류를 바꿔주거나 올바른 목욕용품의 사용 혹은 주변 물건들 중 안팅을 유발할 수 있는 것들을 치워주면 나아집니다.</string>
+    <string name="rodent_info18">고슴도치 치과질환: 치아가 쉽게 잘 부러지거나 치석, 치주염, 잇몸 염증 등의 증상이 나타납니다. 고슴도치는 양치를 하기 어려운 동물이라 이런 질병들이 생기기 좋습니다. 6개월에 한 번 정도 동물병원에 방문하여 스케일링을 실시해 구강 관련 질병들을 예방하는 것이 좋습니다. 또한 증상이 나타난 경우 동물병원을 방문해 치료하도록 합니다.</string>
+    <string name="rodent_info19">고슴도치 종양: 고슴도치는 유전적 특성상 종양이 흔하게 생깁니다. 처음에 보이는 작은 종양은 신체적으로 큰 영향을 주지는 않으나 종양의 세포분열이 굉장히 빠르므로 작은 종양이 큰 종양으로 증식하는데 시간이 얼마 걸리지 않습니다. 큰 종양으로 증식하면 장기를 압박하거나 여러 통증을 유발하며 심한 경우 사망에 이르게 됩니다. 종양이 보일 경우 고슴도치를 동물병원에 데려가서 외과적인 수술로 종양을 적출하는 것이 중요합니다.</string>
+    <string name="rodent_info20">WHS: 근육이 약해지고 위축되며 척추가 휘고 몸이 탈구되는 증상이 나타납니다. 또한 뒷다리에 주로 영향을 줘서 몸이 머리 쪽을 향해 움직이는 증상을 보입니다. 추가적으로 체중 감소가 보이며 이런 증상은 암수 구분 없이 보통 1개월~36개월 사이에 생길 수 있습니다. 이 질병의 원인은 유전이라 근본적인 치료법은 없으나 근육량 손실과 신경마비 증상이 빠르게 진행되는 속도를 막기 위한 치료를 실시합니다. 또한 퇴행성이고 불치병인 질병의 특성상 남은 삶의 질을 높이는 것도 중요합니다.</string>
+    <string name="osh_add">서울 성동구 매봉길 15 래미안 옥수 리버젠</string>
+    <string name="osh">오석헌동물병원</string>
+    <string name="hana_add">서울 동대문구 망우로 66</string>
+    <string name="hana">하나동물병원</string>
+    <string name="centralmedi_add">서울 성동구 고산자로 207 1층</string>
+    <string name="centralmedi">24시센트럴동물메디컬센터</string>
+    <string name="bookak_add">서울 종로구 자하문로 293</string>
+    <string name="bookak">북악동물병원</string>
+    <string name="africa_add">서울 용산구 후암로 32 현석빌딩</string>
+    <string name="africa">아프리카동물병원</string>
+    <string name="im_add">서울 마포구 양화로 72 서교동 효성해링턴타워 1층 121호</string>
+    <string name="im">아이엠동물병원</string>
+    <string name="happy_add">서울 마포구 월드컵북로 224</string>
+    <string name="happy">행복한동물병원</string>
+    <string name="choi_add">서울 강남구 논현로132길 24 양현빌딩2층 최영민동물의료센터</string>
+    <string name="choi">최영민동물의료센터</string>
+    <string name="eco_add">서울 송파구 동남로 161 청공빌딩 101호</string>
+    <string name="eco">에코동물병원</string>
+    <string name="eoullim_add">서울 서대문구 가재울미래로 2 DMC 파크뷰자이 104동 1층 102A호</string>
+    <string name="eoullim">어울림동물병원</string>
+    <string name="doklip_add">서울 서대문구 통일로 171-1</string>
+    <string name="doklip">독립문동물병원</string>
+    <string name="hanyang_add">서울 성동구 왕십리로 282</string>
+    <string name="hanyang">한양동물메디컬센터</string>
+    <string name="bosung_add">서울 성북구 보국문로 68-1 1층</string>
+    <string name="bosung">보성통증동물병원</string>
+    <string name="reallove_add">서울 노원구 한글비석로 272</string>
+    <string name="reallove">참사랑동물병원</string>
+    <string name="leeandpark_add">서울 노원구 한글비석로52길 18</string>
+    <string name="leeandpark">이앤박동물병원</string>
+    <string name="doctors_add">서울 노원구 월계로 336 상천빌딩 1층 닥터스종합동물병원</string>
+    <string name="doctors">닥터스종합동물병원</string>
+    <string name="nvet_add">서울 성북구 삼양로4길 3</string>
+    <string name="nvet">강북24시N동물의료센터</string>
+    <string name="nvetnowon_add">서울 노원구 노원로 408 N동물의료센터 노원점</string>
+    <string name="nvetnowon">N동물의료센터노원점</string>
+    <string name="lk_add">서울 노원구 중계로 225 청구아파트</string>
+    <string name="lk">LK동물병원</string>
+    <string name="forest_add">서울 중랑구 겸재로 207</string>
+    <string name="forest">숲속동물병원</string>
+    <string name="zoo_add">서울 강남구 선릉로 412</string>
+    <string name="zoo">주주동물종합병원</string>
+    <string name="acris_add">서울 강남구 봉은사로104길 10 동화빌딩 3층</string>
+    <string name="acris">아크리스동물의료센터</string>
+    <string name="goryu_add">서울 강남구 선릉로 225 도곡렉슬아파트  렉슬상가 109호</string>
+    <string name="goryu">고려종합동물병원</string>
+    <string name="well_add">서울 강남구 압구정로 108 덕산빌딩</string>
+    <string name="well">압구정웰동물병원</string>
+    <string name="dream_add">서울 강남구 역삼로 234 뉴튼플라자</string>
+    <string name="dream">드림동물병원</string>
+    <string name="rafael_add">서울 서초구 강남대로 525-3 호림빌딩</string>
+    <string name="rafael">라파엘동물병원</string>
+    <string name="daechi_add">서울 강남구 남부순환로 2921 남서울종합상가 1층 69-1호</string>
+    <string name="daechi">대치성심동물병원</string>
+    <string name="cheongdam_add">서울 강남구 삼성로 614</string>
+    <string name="cheongdam">24시청담우리동물병원</string>
+    <string name="gaepo_add">서울 강남구 논현로 70 동성빌딩</string>
+    <string name="gaepo">개포별빛동물병원</string>
+    <string name="sangdo_add">서울 동작구 상도로 353</string>
+    <string name="sangdo">상도힐링동물병원</string>
+    <string name="liebe_add">서울 양천구 오목로 280</string>
+    <string name="liebe">리베동물메디컬센터</string>
+    <string name="seoul_add">서울 서초구 방배로19길 19 1층</string>
+    <string name="seoul">서울종합동물병원방배</string>
+    <string name="miso_add">서울 강서구 강서로 215 삼광빌딩</string>
+    <string name="miso">미소동물의료센터</string>
+    <string name="snoopy_add">서울 관악구 남부순환로 1444</string>
+    <string name="snoopy">스누피동물병원</string>
+    <string name="semyung_add">서울 강서구 강서로17길 52 세명동물병원</string>
+    <string name="semyung">세명동물병원</string>
+    <string name="global_add">서울 구로구 구로중앙로31길 30 유성빌딩</string>
+    <string name="global">24시지구촌동물메디컬센터</string>
+    <string name="vella_add">서울 구로구 구로중앙로34길 30 진명빌딩</string>
+    <string name="vella">벨라동물병원</string>
+    <string name="geumgang_add">서울 구로구 경인로 196</string>
+    <string name="geumgang">금강종합동물병원</string>
+    <string name="sillim_add">서울 관악구 신림로 157-1</string>
+    <string name="sillim">신림종합동물병원</string>
+    <string name="seouluniv_add">서울 관악구 관악로 1 서울대학교 수의과대학 80동</string>
+    <string name="seouluniv">서울대학교동물병원</string>
+    <string name="park_add">서울 양천구 목동서로 349 목동센트럴프라자 104호</string>
+    <string name="park">공원옆동물병원</string>
+    <string name="wooshin_add">서울 영등포구 신길로 168</string>
+    <string name="wooshin">우신종합동물병원</string>
+    <string name="hansung_add">서울 관악구 신림로 265</string>
+    <string name="hansung">한성동물병원</string>
+    <string name="seoulhq_add">서울 관악구 신림로 233</string>
+    <string name="seoulhq">서울종합동물병원본원</string>
+    <string name="hansoo_add">서울 은평구 증산로 267 1층</string>
+    <string name="hansoo">한수동물병원</string>
+    <string name="yeonseo_add">서울 은평구 연서로 162</string>
+    <string name="yeonseo">연서동물종합병원</string>
+    <string name="smile_add">서울 강서구 수명로 74</string>
+    <string name="smile">스마일동물병원</string>
+    <string name="song_add">서울 강서구 공항대로 39</string>
+    <string name="song">송정동물메디컬센터</string>
+    <string name="best_add">서울 강서구 까치산로 30</string>
+    <string name="best">베스트동물병원</string>
+    <string name="good_add">서울 강서구 방화대로47가길 7 샤르망1차 103호</string>
+    <string name="good">굿모닝동물병원</string>
+    <string name="airport_add">서울 강서구 개화동로29길 15</string>
+    <string name="airport">공항축산동물병원</string>
+    <string name="yd_add">서울 강서구 화곡로 371</string>
+    <string name="yd">강서YD동물의료센터</string>
+    <string name="window_add">서울 강북구 월계로 35 창문동물병원</string>
+    <string name="window">창문동물병원</string>
+    <string name="pikaso_add">서울 강동구 구천면로 431</string>
+    <string name="pikaso">피카소동물병원</string>
+    <string name="sejong_add">서울 강동구 구천면로 237</string>
+    <string name="sejong">세종동물병원</string>
+    <string name="always_add">서울 강동구 고덕로 162</string>
+    <string name="always">늘사랑동물병원</string>
+    <string name="dr_add">서울 강동구 구천면로 664</string>
+    <string name="dr">닥터베토벤동물병원</string>
+    <string name="banghak_add">서울 도봉구 도봉로 723</string>
+    <string name="banghak">방학동물병원</string>
+    <string name="topcare_add">경기 고양시 덕양구 화신로272번길 5</string>
+    <string name="topcare">탑케어동물의료원</string>
+    <string name="garam_add">경기 고양시 일산동구 강석로 156 선경상가 101호</string>
+    <string name="garam">가람동물병원</string>
+    <string name="petpia_add">경기 고양시 덕양구 충경로 45</string>
+    <string name="petpia">펫피아동물병원</string>
+    <string name="jm_add">경기 고양시 일산동구 정발산로 43-20 센트럴프라자</string>
+    <string name="jm">제이엠동물병원</string>
+    <string name="grand_add">경기 고양시 일산서구 주엽로 134 시대프라자 101, 102, 103호</string>
+    <string name="grand">그랜드동물병원</string>
+    <string name="pole_add">경기 성남시 분당구 성남대로 385 102호</string>
+    <string name="pole">24시폴동물병원</string>
+    <string name="oz_add">경기 의정부시 추동로 13</string>
+    <string name="oz">오즈동물병원</string>
+    <string name="jookjeon_add">경기 용인시 기흥구 죽전로 49 씨티프라자 101호</string>
+    <string name="jookjeon">죽전동물병원</string>
+    <string name="central_add">경기 고양시 덕양구 은빛로 45 화정꽃무리조합프라자 202호</string>
+    <string name="central">센트럴동물병원</string>
+    <string name="ilsan_add">경기 고양시 일산동구 무궁화로 8-28 삼성메르헨하우스</string>
+    <string name="ilsan">일산시티동물의료센터</string>
+    <string name="gold_add">경기 파주시 가재울로94번길 27</string>
+    <string name="gold">금쪽금쪽금쪽반려동물병원</string>
+    <string name="daw_add">경기 김포시 중봉로 4 다우동물병원</string>
+    <string name="daw">다우동물병원</string>
+    <string name="pangyo_add">경기 성남시 분당구 동판교로 122 백현마을</string>
+    <string name="pangyo">판교종합동물병원</string>
+    <string name="daisy_add">경기 성남시 분당구 내정로 58</string>
+    <string name="daisy">분당데이지동물병원</string>
+    <string name="ace_add">경기 의정부시 태평로 102-1</string>
+    <string name="ace">에이스동물병원</string>
+    <string name="paw_add">경기 용인시 수지구 현암로125번길 6 그린프라자</string>
+    <string name="paw">파우동물병원</string>
+    <string name="hanmaeum_add">경기 용인시 수지구 풍덕천로 113</string>
+    <string name="hanmaeum">한마음동물병원</string>
+    <string name="giheung_add">경기 용인시 기흥구 구성로 111 1층 102호</string>
+    <string name="giheung">기흥동물병원</string>
+    <string name="richpet_add">경기 용인시 기흥구 동백중앙로 177</string>
+    <string name="richpet">리치펫동물병원</string>
+    <string name="haesol_add">경기 화성시 동탄원천로 354-11</string>
+    <string name="haesol">해솔동물병원</string>
+    <string name="ansanafrica_add">경기 안산시 단원구 원포공원2로 35 메가쇼핑타운1</string>
+    <string name="ansanafrica">24시아프리카동물병원</string>
+    <string name="charm_add">경기 오산시 오산로 91-10</string>
+    <string name="charm">참동물병원</string>
+    <string name="we_add">경기 수원시 장안구 파장로 109</string>
+    <string name="we">WE동물병원</string>
+    <string name="leejihoon_add">경기 수원시 권선구 금호로 261</string>
+    <string name="leejihoon">이지훈동물병원</string>
+    <string name="yooljeon_add">경기 수원시 장안구 율전로 98 1층</string>
+    <string name="yooljeon">율전동물병원</string>
+    <string name="suwonhanmaeum_add">경기 수원시 장안구 수성로 300 동광빌딩</string>
+    <string name="suwonhanmaeum">한마음동물의료센터</string>
+    <string name="saebom_add">경기 수원시 영통구 봉영로 1569 NEW WORLD PLAZA</string>
+    <string name="saebom">새봄동물병원</string>
+    <string name="daoul_add">경기 수원시 권선구 권광로 64 상가 B동 109호</string>
+    <string name="daoul">24시다올동물병원</string>
+    <string name="indukwon_add">경기 안양시 동안구 흥안대로 495</string>
+    <string name="indukwon">인덕원종합동물병원</string>
+    <string name="seoulcom_add">경기 안양시 동안구 흥안대로 492</string>
+    <string name="seoulcom">서울종합동물병원</string>
+    <string name="anyang_add">경기 안양시 만안구 안양로 347</string>
+    <string name="anyang">안양동물병원</string>
+    <string name="seoulmedical_add">경기 광주시 오포읍 신현로 89</string>
+    <string name="seoulmedical">서울동물메디컬센터</string>
+    <string name="pogeun_add">경기 부천시 소향로 111</string>
+    <string name="pogeun">포근한동물병원</string>
+    <string name="ilovepet_add">경기 부천시 길주로 118</string>
+    <string name="ilovepet">아이러브펫동물병원</string>
+    <string name="gogang_add">경기 부천시 역곡로 473</string>
+    <string name="gogang">고강동물병원</string>
+    <string name="moms_add">경기 부천시 길주로 80</string>
+    <string name="moms">맘스동물병원</string>
+    <string name="hanova_add">경기 부천시 부흥로 196</string>
+    <string name="hanova">하노바동물병원</string>
+    <string name="twentyfive_add">경기 오산시 성호대로 97</string>
+    <string name="twentyfive">25시종합동물병원</string>
+    <string name="petfield_add">경기 평택시 평택5로114번길 54</string>
+    <string name="petfield">펫필드동물병원</string>
+    <string name="anyheal_add">인천 남동구 인하로 608</string>
+    <string name="anyheal">애니힐동물병원</string>
+    <string name="nonhyun_add">인천 남동구 소래역남로16번길 75 에코메트로3차 더타워 상가 지층 B103-2호</string>
+    <string name="nonhyun">논현동물병원</string>
+    <string name="sidney_add">인천 미추홀구 미추홀대로 594 동경프라자</string>
+    <string name="sidney">시드니종합동물병원</string>
+    <string name="chansem_add">인천 남동구 남동대로 887</string>
+    <string name="chansem">찬샘동물병원</string>
+    <string name="bupyung_add">인천 부평구 부평대로 138 2층</string>
+    <string name="bupyung">24시부평종합동물의료센터</string>
+    <string name="lime_add">인천 서구 청라라임로 102</string>
+    <string name="lime">청라라임동물병원</string>
+    <string name="plaza_add">인천 연수구 신송로 122 송도프라자</string>
+    <string name="plaza">프라자동물병원</string>
+    <string name="ara_add">인천 미추홀구 주안로 73</string>
+    <string name="ara">아라종합동물병원</string>
+    <string name="dao_add">인천 계양구 계산새로 71 하이베라스 D동 123호</string>
+    <string name="dao">다오동물병원</string>
+    <string name="hateaheung_add">인천 남동구 만수로 10</string>
+    <string name="hateaheung">하태흥반려동물의료원</string>
+    <string name="royal_add">강원 원주시 남원로 655</string>
+    <string name="royal">로얄종합동물병원</string>
+    <string name="ak_add">강원 춘천시 중앙로 127 춘천동양의원</string>
+    <string name="ak">AK동물병원</string>
+    <string name="somang_add">강원 춘천시 영서로 2293</string>
+    <string name="somang">소망동물병원</string>
+    <string name="goun_add">세종 고운서길 19 스마트큐브1 109호</string>
+    <string name="goun">고운동물병원</string>
+    <string name="choongbook_add">충북 청주시 서원구 충대로 1 충북대학교 수의과대학 동물의료센터</string>
+    <string name="choongbook">충북대학교동물병원</string>
+    <string name="ain_add">충북 청주시 흥덕구 진재로 41 풍년빌딩 1층</string>
+    <string name="ain">아인동물의료센터</string>
+    <string name="soo_add">충북 청주시 서원구 모충로3번길 81 한진신세대아파트 상가 108호</string>
+    <string name="soo">수동물병원</string>
+    <string name="any_add">충남 천안시 동남구 터미널2로 8</string>
+    <string name="any">에니펫동물병원</string>
+    <string name="gor_add">충남 천안시 동남구 중앙로 281-2 승지빌딩</string>
+    <string name="gor">고려동물병원</string>
+    <string name="dasom_add">충남 천안시 동남구 수곡2길 8-3 이화빌딩</string>
+    <string name="dasom">다솜동물병원</string>
+    <string name="sinhwa_add">충남 서산시 안견로 247-1</string>
+    <string name="sinhwa">신화동물병원</string>
+    <string name="seogor_add">충남 서산시 안견로 263</string>
+    <string name="seogor">고려동물병원</string>
+    <string name="newworld_add">경북 포항시 남구 중앙로 20-1</string>
+    <string name="newworld">신세계동물병원</string>
+    <string name="shinsege_add">경남 양산시 물금읍 새실로 159 나래메트로시티</string>
+    <string name="shinsege">신세계동물의료센터</string>
+    <string name="isop_add">경남 진주시 남강로309번길 20</string>
+    <string name="isop">이솝동물메디컬</string>
+    <string name="gooddoc_add">경남 진주시 사들로 52</string>
+    <string name="gooddoc">굿닥터동물병원</string>
+    <string name="langs_add">경남 진주시 대신로 259-1</string>
+    <string name="langs">랑스종합동물병원</string>
+    <string name="mirae_add">경남 창원시 성산구 원이대로473번길 28 반송빌딩</string>
+    <string name="mirae">미래펫동물병원</string>
+    <string name="hanil_add">경남 창원시 마산회원구 양덕로 170 한일동물병원</string>
+    <string name="hanil">한일동물병원</string>
+    <string name="noble_add">경남 창원시 성산구 원이대로473번길 9 217호</string>
+    <string name="noble">노블동물병원</string>
+    <string name="feel_add">경남 창원시 의창구 평산로 102 녹주빌딩</string>
+    <string name="feel">24시팔용feel동물병원</string>
+    <string name="aqua_add">경남 김해시 번화2로 42</string>
+    <string name="aqua">아쿠아동물병원</string>
+    <string name="lovely_add">경남 김해시 구산로 35</string>
+    <string name="lovely">러블리동물병원</string>
+    <string name="vest_add">경남 거제시 제산로 37 베스트동물병원</string>
+    <string name="vest">베스트동물병원</string>
+    <string name="cg_add">대구 수성구 달구벌대로 3014</string>
+    <string name="cg">시지동물병원</string>
+    <string name="joeun_add">대구 수성구 달구벌대로 2644 조은동물의료원</string>
+    <string name="joeun">조은동물의료원</string>
+    <string name="sun_add">대구 달서구 월배로 80 진천역대성스카이렉스아파트 401동 127호</string>
+    <string name="sun">해맑은동물병원</string>
+    <string name="shin_add">대구 수성구 명덕로 393</string>
+    <string name="shin">신세계동물병원</string>
+    <string name="first_add">대구 수성구 지범로 73</string>
+    <string name="first">퍼스트동물병원</string>
+    <string name="little_add">울산 남구 봉월로 104</string>
+    <string name="little">리틀쥬동물의료원</string>
+    <string name="sm_add">울산 남구 대학로 112</string>
+    <string name="sm">스마일동물병원</string>
+    <string name="s_add">울산 남구 삼산로 71</string>
+    <string name="s">울산24시S동물메디컬센터</string>
+    <string name="gulhwa_add">울산 울주군 범서읍 울밀로 2826</string>
+    <string name="gulhwa">굴화종합동물병원</string>
+    <string name="hanbit_add">울산 북구 신답로 48 프리지아상가 1층</string>
+    <string name="hanbit">서울한빛동물병원</string>
+    <string name="seodong_add">부산 금정구 서동로 158-2</string>
+    <string name="seodong">서동동물메디컬센터</string>
+    <string name="irum_add">부산 연제구 연수로 140</string>
+    <string name="irum">이룸동물병원</string>
+    <string name="goo_add">부산 금정구 금강로 454</string>
+    <string name="goo">구서동물병원</string>
+    <string name="dukcheon_add">부산 북구 만덕대로 119</string>
+    <string name="dukcheon">덕천동물의료센터</string>
+    <string name="real_add">부산 동래구 반송로 243</string>
+    <string name="real">레알피부전물동물병원</string>
+    <string name="go_add">부산 중구 자갈치로47번길 5</string>
+    <string name="go">고동물병원</string>
+    <string name="un_add">부산 남구 수영로 221</string>
+    <string name="un">UN동물의료센터</string>
+    <string name="hello_add">부산 남구 분포로 115 힐탑 탑 플레이스 A동 403호</string>
+    <string name="hello">헬로동물병원</string>
+    <string name="ocean_add">부산 강서구 명지오션시티11로 66</string>
+    <string name="ocean">오션시티동물병원</string>
+    <string name="samsung_add">부산 사하구 감천로 32 감천백산아파트</string>
+    <string name="samsung">삼성종합동물병원</string>
+    <string name="hadan_add">부산 사하구 하신중앙로 340 1층 하단오거리 동물의료센터</string>
+    <string name="hadan">하단오거리동물의료센터</string>
+    <string name="kium_add">제주 제주시 중앙로 273 나라키움 복합관사 106호</string>
+    <string name="kium">제주키움동물병원</string>
+    <string name="health_add">제주 제주시 중앙로 351</string>
+    <string name="health">튼튼동물병원</string>
+    <string name="halla_add">제주 제주시 남광로 20 한라동물의료센터</string>
+    <string name="halla">한라동물의료센터</string>
+    <string name="yedam_add">대전 유성구 원신흥로55번길 6-4</string>
+    <string name="yedam">예담동물병원</string>
+    <string name="hwang_add">대전 유성구 상대동로2번길 12</string>
+    <string name="hwang">황학균동물병원</string>
+    <string name="cool_add">대전 유성구 한밭대로 502 홈플러스</string>
+    <string name="cool">쿨펫양한방동물병원</string>
+    <string name="jo_add">대전 유성구 엑스포로 459 조은동물병원</string>
+    <string name="jo">조은동물병원</string>
+    <string name="kenya_add">대전 서구 둔산남로 200</string>
+    <string name="kenya">케냐인동물병원</string>
+    <string name="noah_add">광주 남구 대남대로 407</string>
+    <string name="noah">노아동물종합병원</string>
+    <string name="kor_add">광주 남구 용대로 154-2 고려동물병원</string>
+    <string name="kor">고려동물병원</string>
+    <string name="soowan_add">광주 광산구 장신로 164</string>
+    <string name="soowan">수완종합동물병원</string>
+    <string name="kirin_add">전북 정읍시 충정로 92-1</string>
+    <string name="kirin">기린동물병원</string>
+    <string name="ino_add">전북 완주군 이서면 안전로 153 타워숲 1층</string>
+    <string name="ino">전주이노동물병원</string>
+    <string name="healing_add">전북 전주시 덕진구 송천중앙로 177 한일신경외과</string>
+    <string name="healing">힐링동물병원</string>
+    <string name="blue_add">전북 전주시 완산구 충경로 11 늘푸른동물병원</string>
+    <string name="blue">늘푸른동물병원</string>
+    <string name="future_add">전북 익산시 무왕로 1132</string>
+    <string name="future">미래종합동물병원</string>
+    <string name="joongma_add">전남 광양시 중마중앙로 106</string>
+    <string name="joongma">중마동물병원</string>
+    <string name="dongin_add">경남 창원시 진해구 안골로 308</string>
+    <string name="dongin">동인종합동물병원</string>
+    <string name="animalbrs">진료가능한 특수동물: 조류, 파충류, 소형포유류</string>
+    <string name="animalbr">진료가능한 특수동물: 조류, 파충류</string>
+    <string name="animalbs">진료가능한 특수동물: 조류, 소형포유류</string>
+    <string name="animalrs">진료가능한 특수동물: 파충류, 소형포유류</string>
+    <string name="animalb">진료가능한 특수동물: 조류</string>
+    <string name="animals">진료가능한 특수동물: 소형포유류</string>
+    <string name="animalr">진료가능한 특수동물: 파충류</string>
+    <string name="animalall">진료가능한 특수동물: 조류, 파충류, 소형포유류 외 다른 특수동물도 진료가능</string>
+    <string name="time">운영시간</string>
+    <string name="alert">주의: 진료가능한 동물이 다를 수도 있으므로 꼭 방문전에 진료가능한 동물 한번 더 확인해주시길 바랍니다!!</string>
+    <string name="mail">hetzer44@naver.com</string>
+</resources>

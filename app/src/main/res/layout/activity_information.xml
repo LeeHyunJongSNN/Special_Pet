@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Background2"
+    tools:context=".InformationActivity">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="FULL_BANNER"
+        app:adUnitId="ca-app-pub-4756367925005641/1056623697"></com.google.android.gms.ads.AdView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_info_sub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:text="특수동물들이 걸리는 질병 목록"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kotra_bold"/>
+
+            <TextView
+                android:id="@+id/text_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:text="(정확한 진단은 수의사와 상담해 보는 것을 추천드립니다.)"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kotra_bold"/>
+
+            <TextView
+                android:id="@+id/text_parrot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/kotra_bold"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info1"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info2"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info3"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info4"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info5"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info6"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info7"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info8"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info9"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info10"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info11"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info12"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info13"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info14"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info15"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info16"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info17"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info18"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info19"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info20"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info21"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info22"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info23"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info24"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info25"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="@color/Background" />
+
+            <TextView
+                android:id="@+id/text_parrotinfo26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/parrot_info26"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+
+            <Button
+                android:id="@+id/info_go_to_reptilepage"
+                android:background="@drawable/my_button"
+                android:fontFamily="@font/kotra_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:backgroundTint="@color/Button_color"
+                android:foreground="?selectableItemBackground"/>
+
+            <Button
+                android:id="@+id/info_go_to_searchpage"
+                android:background="@drawable/my_button"
+                android:fontFamily="@font/kotra_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/search"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:backgroundTint="@color/Button_color"
+                android:foreground="?selectableItemBackground"/>
+
+
+            <Button
+                android:id="@+id/info_back_to_main"
+                android:background="@drawable/my_button"
+                android:fontFamily="@font/kotra_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:backgroundTint="@color/Button_color"
+                android:foreground="?selectableItemBackground"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
